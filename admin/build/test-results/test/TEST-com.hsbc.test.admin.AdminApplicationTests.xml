@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hsbc.test.admin.AdminApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-04T10:15:57" hostname="LAPTOP-LQNPROFU" time="2.031">
+  <properties/>
+  <testcase name="test" classname="com.hsbc.test.admin.AdminApplicationTests" time="2.031"/>
+  <system-out><![CDATA[18:15:48,632 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:15:48,634 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:15:48,634 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/WorkSpace/cookies-template/Cookies/admin/build/resources/test/logback.xml]
+18:15:48,635 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+18:15:48,635 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/D:/WorkSpace/cookies-template/Cookies/admin/build/resources/test/logback.xml]
+18:15:48,635 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/D:/WorkSpace/cookies-template/Cookies/admin/build/resources/main/logback.xml]
+18:15:48,773 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:15:48,775 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to INFO
+18:15:48,775 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.http.wire] to INFO
+18:15:48,775 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.http.headers] to INFO
+18:15:48,778 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:15:48,782 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+18:15:48,788 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:15:48,858 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+18:15:48,858 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+18:15:48,859 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:15:48,860 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@fdef8f7 - Registering current configuration as safe fallback point
+
+2022-07-04 18:15:50  ?[34mINFO ?[0;39m ?[35m1484?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mc.hsbc.test.admin.AdminApplicationTests ?[0;39m : Starting AdminApplicationTests on LAPTOP-LQNPROFU with PID 22464 (started by houhuiying in D:\WorkSpace\cookies-template\Cookies\admin)
+2022-07-04 18:15:50  ?[34mINFO ?[0;39m ?[35m1489?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mc.hsbc.test.admin.AdminApplicationTests ?[0;39m : The following profiles are active: dev
+2022-07-04 18:15:53  ?[34mINFO ?[0;39m ?[35m4808?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mo.s.web.context.ContextLoader           ?[0;39m : Root WebApplicationContext: initialization completed in 3288 ms
+2022-07-04 18:15:55  ?[31mWARN ?[0;39m ?[35m6755?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mion$DefaultTemplateResolverConfiguration?[0;39m : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-04 18:15:57  ?[34mINFO ?[0;39m ?[35m8474?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mc.hsbc.test.admin.AdminApplicationTests ?[0;39m : Started AdminApplicationTests in 7.586 seconds (JVM running for 9.383)
+2022-07-04 18:15:57  ?[34mINFO ?[0;39m ?[35m9228?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mcom.hsbc.test.admin.AdminApplication    ?[0;39m : Starting AdminApplication on LAPTOP-LQNPROFU with PID 22464 (started by houhuiying in D:\WorkSpace\cookies-template\Cookies\admin)
+2022-07-04 18:15:57  ?[34mINFO ?[0;39m ?[35m9229?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mcom.hsbc.test.admin.AdminApplication    ?[0;39m : The following profiles are active: dev
+2022-07-04 18:15:58  ?[34mINFO ?[0;39m ?[35m9955?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mo.s.web.context.ContextLoader           ?[0;39m : Root WebApplicationContext: initialization completed in 721 ms
+2022-07-04 18:15:58  ?[31mWARN ?[0;39m ?[35m10366?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mion$DefaultTemplateResolverConfiguration?[0;39m : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-04 18:15:59  ?[34mINFO ?[0;39m ?[35m10591?[0;39m --- [?[33m    Test worker?[0;39m] ?[36mcom.hsbc.test.admin.AdminApplication    ?[0;39m : Started AdminApplication in 1.411 seconds (JVM running for 11.5)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

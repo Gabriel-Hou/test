@@ -1,0 +1,20 @@
+
+k
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(İô¶Ò8°°ÚÃœ0
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ƒÜÃœ0
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ8ø×ÓÃœ0
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8°°ÚÃœ0
+|
+java:S1149J"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ø×ÓÃœ0
+[
+java:S4719I"9Replace charset name argument with StandardCharsets.UTF_8(²ƒºúÿÿÿÿ8ø×ÓÃœ0
+X	java:S125m"<This block of commented-out lines of code should be removed.(ĞÎ‹É8ø×ÓÃœ0
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(ĞÒô8ø×ÓÃœ0
+G
+java:S1172F"*Remove this unused method parameter "url".(†¡½8ø×ÓÃœ0
+n
+java:S2095I"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(²ƒºúÿÿÿÿ8÷×ÓÃœ0
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¡İóšşÿÿÿÿ8ø×ÓÃœ0

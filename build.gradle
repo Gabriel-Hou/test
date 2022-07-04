@@ -1,0 +1,88 @@
+allprojects {
+}
+
+subprojects {
+	apply plugin: "java"
+	apply plugin: "eclipse"
+	apply plugin: "idea"
+
+	group = 'com.hsbc.test'
+	version = '1.0.0'
+	sourceCompatibility = '1.8'
+
+	buildscript {
+		apply from: "../setting/config/global.gradle"
+
+		repositories {
+            maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+            maven { url 'http://repo.e-iceblue.cn/repository/maven-public/' }
+			mavenLocal()
+			mavenCentral()
+			jcenter()
+		}
+		dependencies {
+			classpath("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
+		}
+	}
+
+	repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://repo.e-iceblue.cn/repository/maven-public/' }
+		mavenLocal()
+		mavenCentral()
+		jcenter()
+	}
+
+	tasks.withType(JavaCompile) {
+		options.encoding = 'UTF-8'
+	}
+
+    //共同依赖的
+	dependencies{
+        testCompile "${spring_boot_starter_test}"
+        testCompile "${spring_security_test}"
+        testCompile "${assertj_core}"
+        testCompile "${json_unit}"
+        testCompile "${json_unit_fluent}"
+
+        //Stringboot
+        implementation "${spring_boot_starter_thymeleaf}"
+        implementation "${spring_boot_starter_security}"
+        implementation "${spring_boot_starter_actuator}"
+        implementation "${spring_boot_starter_cache}"
+        implementation "${spring_boot_starter_web}"
+        implementation "${spring_boot_starter_json}"
+        implementation "${spring_data_commons}"
+        implementation "${caffeine}"
+
+        implementation "${logback_core}"
+        implementation "${logback_classic}"
+        implementation "${logback_access}"
+
+        implementation "${httpclient}"
+        implementation "${commons_io}"
+
+        // mapper
+        implementation "${mapstruct}"
+        compileOnly "${mapstruct_processor}"
+        implementation "${alibaba_fastjson}"
+
+        implementation "${lombok}"
+	}
+
+}
+
+
+
+project(':admin'){
+    dependencies {
+        compile fileTree(dir: '../libs', includes: ['*.jar'])
+        implementation project(":base")
+
+        //http
+        implementation "${httpmime}"
+        implementation "${jsoup}"
+
+        implementation "${spring_boot_starter_test}"
+    }
+}

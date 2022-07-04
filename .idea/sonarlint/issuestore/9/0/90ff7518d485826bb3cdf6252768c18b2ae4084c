@@ -1,0 +1,117 @@
+
+h
+java:S2095»"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+h
+java:S2095Ì"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+N
+java:S1135Š"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+S
+java:S1874¢"<Remove this use of "getConnectionManager"; it is deprecated.(òÒÚ“
+h
+java:S2095ª"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+h
+java:S2095®"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+h
+java:S2095Œ"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+{
+java:S1192Š"_Define a constant instead of duplicating this literal "å…³é—­httpClientå‡ºçŽ°errorï¼š" 5 times.(ÎŽæ®úÿÿÿÿ
+E
+java:S1481É"/Remove this unused "jsonObject" local variable.(ðž¸~
+V
+java:S1874¢"?Remove this use of "ClientConnectionManager"; it is deprecated.(òÒÚ“
+T
+java:S4719~"9Replace charset name argument with StandardCharsets.UTF_8(á³Éúÿÿÿÿ
+P
+java:S4719÷"9Replace charset name argument with StandardCharsets.UTF_8(¬Üµà
+@
+java:S1905Ž")Remove this unnecessary cast to "String".(½Ðöó
+S
+java:S1874þ"<Remove this use of "X509HostnameVerifier"; it is deprecated.(ê¶Ä·
+S
+java:S1874 "<Remove this use of "X509HostnameVerifier"; it is deprecated.(õ Æü
+N
+java:S1135ƒ"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+—
+java:S1186ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™„§I
+t
+java:S1488X"^Immediately return this expression instead of assigning it to the temporary variable "result".(»©Úµ
+O
+java:S1874 "8Remove this use of "SSLSocketFactory"; it is deprecated.(õ Æü
+\
+java:S4830ô"@Enable server certificate validation on this SSL/TLS connection.(ŒÉÎðûÿÿÿÿ
+H
+java:S1874¥"1Remove this use of "getParams"; it is deprecated.(ŒœË«
+U
+java:S1118:":Add a private constructor to hide the implicit public one.(Â¹¨·ýÿÿÿÿ
+\
+java:S3252©"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ÆÉúÂ
+
+java:S1186ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŒÉÎðûÿÿÿÿ
+a
+java:S2259¤"EA "NullPointerException" could be thrown; "httpost" is nullable here.(ãÌ£¸úÿÿÿÿ
+F
+java:S2093é"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+K
+java:S3740Ä"/Provide the parametrized type for this generic.(íŒê«ÿÿÿÿÿ
+K
+java:S2864Å"4Iterate over the "entrySet" instead of the "keySet".(÷¤Äò
+R
+java:S1874£"6Remove this use of "SchemeRegistry"; it is deprecated.(ÂÐéÓøÿÿÿÿ
+O
+java:S1874 "8Remove this use of "SSLSocketFactory"; it is deprecated.(õ Æü
+P
+java:S4719…"9Replace charset name argument with StandardCharsets.UTF_8( ó­Ä
+\
+java:S3252Ú"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(¾à¥ó
+_
+java:S2259W"DA "NullPointerException" could be thrown; "client" is nullable here.(ä›¼Ïüÿÿÿÿ
+\
+java:S3252œ"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ÆÉúÂ
+{
+java:S1149ý"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(– ñÎúÿÿÿÿ
+]
+java:S1192X"GDefine a constant instead of duplicating this literal "UTF-8" 15 times.(»©Úµ
+Q
+java:S1141Ô"5Extract this nested try block into a separate method.(½Íÿáøÿÿÿÿ
+\
+java:S3252œ"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(¾à¥ó
+\
+java:S3252ì"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ÆÉúÂ
+[
+java:S3252Ä"?Use static access with "com.alibaba.fastjson.JSON" for "parse".(íŒê«ÿÿÿÿÿ
+N
+java:S1905 "7Remove this unnecessary cast to "X509HostnameVerifier".(õ Æü
+P
+java:S1874¥"9Remove this use of "DefaultHttpClient"; it is deprecated.(ŒœË«
+N
+java:S1135š"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+h
+java:S2095è"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+V
+java:S5527„"?Enable server hostname verification on this SSL/TLS connection.(§¼Éç
+D
+java:S1874¤".Remove this use of "Scheme"; it is deprecated.(­Ñ¹3
+h
+java:S2095å"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+h
+java:S2095"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+\
+java:S3252ò"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ÆÉúÂ
+V
+java:S4830ï"@Enable server certificate validation on this SSL/TLS connection.(™„§I
+E
+java:S2093m"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+h
+java:S2095Š"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+N
+java:S1135’"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+u
+java:S1192["ZDefine a constant instead of duplicating this literal "httpè¯·æ±‚å‡ºçŽ°errorï¼š" 15 times.(Ø°Åïúÿÿÿÿ
+U
+java:S4719ÿ"9Replace charset name argument with StandardCharsets.UTF_8(²»‹¨ýÿÿÿÿ
+=
+java:S1168ú"&Return an empty array instead of null.(¥¹ï
+P
+java:S2864×"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ
+T
+java:S1874J"9Remove this use of "DefaultHttpClient"; it is deprecated.(‹Æ¥ýÿÿÿÿ

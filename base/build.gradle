@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id 'maven'
+    id 'org.springframework.boot' version '2.2.3.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'net.ltgt.apt' version '0.10'
+    id 'nu.studer.jooq' version '3.0.2' // jooq generator
+    id 'org.flywaydb.flyway' version '5.1.4' // flyway
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/main/generated']
+
+            resources {
+                exclude('static/upload/**')
+            }
+        }
+    }
+    test {
+        resources {}
+    }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
+//生成jar包，不生成可执行jar包
+jar.enabled=true
+bootJar.enabled=false
